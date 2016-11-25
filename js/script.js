@@ -98,6 +98,7 @@ function buildAndShowHomeHTML (categories) {
     homeHtmlUrl,
     function (homeHtml) {
 
+      console.log("we are here at the start");
       console.log(categories);
 
       // TODO: STEP 2: Here, call chooseRandomCategory, passing it retrieved 'categories'
